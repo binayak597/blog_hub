@@ -72,7 +72,7 @@ Here are a few UI previews of the BlogHub application:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/bloghub.git
+git clone https://github.com/binayak597/bloghub.git
 cd bloghub
 
 ---
