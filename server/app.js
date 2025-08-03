@@ -17,8 +17,16 @@ connectDB();
 
 export const app = express();
 
+//cors configuration
+const corsOptions = {
+  origin: process.env.FRONTEND_URL, 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],   
+  credentials: true,                           
+  allowedHeaders: ['Content-Type', 'Authorization'], 
+};
+
 // middlewares
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // routes
