@@ -98,7 +98,7 @@ Create a `.env` file in the root directory with the following variables by using
 PORT=your_port
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
-CLIENT_URL=your_client_url
+FRONTEND_URL=your_client_url
 ```
 
 #### client
@@ -156,23 +156,23 @@ npm run start
 
 ### Make sure to:
 
-Update the .env with production variables
+- Update the .env with production variables
 
-Set CORS origin properly
+- Set CORS origin properly
 
-Enable deployment build scripts if needed
+- Enable deployment build scripts if needed
 
 
 ### 🙋‍♂️ Contributing
 We welcome contributions! Please follow these steps:
 
-Fork the repo
+- Fork the repo
 
-Create a new branch (feature/your-feature-name)
+- Create a new branch (feature/your-feature-name)
 
-Commit your changes
+- Commit your changes
 
-Push and create a PR
+- Push and create a PR
 
 ### 🧠 Author
 
