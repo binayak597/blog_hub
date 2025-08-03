@@ -32,6 +32,11 @@ Here are a few UI previews of the BlogHub application:
 
 ---
 
+## CREDENTIALS TO EXPLORE THE SITE
+
+ - email -> "john@example.com"
+ - password -> "123456"
+
 ## 🔧 Technologies Used
 
 ### Server
